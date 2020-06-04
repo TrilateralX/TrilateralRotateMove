@@ -48,8 +48,8 @@ class TrilateralRotateMove extends AppGL {
             pen.pos--;
             x = Math.random()*1000;
             y = Math.random()*1000;
-            dx.push( 3*Math.random()-0.5 );
-            dy.push( 3*Math.random()-0.5 );
+            dx.push( 3*(Math.random()-0.5) );
+            dy.push( 3*(Math.random()-0.5) );
             pen.color3Current.argbA = Std.int( 4294967295 * Math.random() );
             pen.color3Current.argbB = Std.int( 4294967295 * Math.random() );
             pen.color3Current.argbC = Std.int( 4294967295 * Math.random() );

@@ -173,8 +173,8 @@ TrilateralRotateMove.prototype = $extend(trilateralChange_AppGL.prototype,{
 			_g1.colorType.set_pos(v);
 			this.set_x(Math.random() * 1000);
 			this.set_y(Math.random() * 1000);
-			this.dx.push(3 * Math.random() - 0.5);
-			this.dy.push(3 * Math.random() - 0.5);
+			this.dx.push(3 * (Math.random() - 0.5));
+			this.dy.push(3 * (Math.random() - 0.5));
 			pen.colorType.color3current.set_argbA(4294967295 * Math.random() | 0);
 			pen.colorType.color3current.set_argbB(4294967295 * Math.random() | 0);
 			pen.colorType.color3current.set_argbC(4294967295 * Math.random() | 0);
